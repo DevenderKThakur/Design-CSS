@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BasicCanvas</title>
+    </head>
+    <body>
+        <canvas id="myCanvas" style="border:2px solid white" height="100" width="200" ></canvas>
+    </body>
+    <script>
+        // to draw a straight line 
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+
+        //to create a line from top to bottom
+
+            ctx.moveTo(100, 0);
+            ctx.lineTo(100, 100);
+            // ctx.stroke();
+
+        // to create a slanting line 
+            ctx.moveTo(0,0);
+            ctx.lineTo(200,100);
+            // ctx.stroke();
+
+            
+    </script>
+</html>
