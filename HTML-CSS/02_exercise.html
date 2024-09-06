@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .back-btn{
+        padding: 10px;
+        margin-right: 8px;
+    }
+    a{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .next-btn{
+        padding: 10px;
+        margin-left: 8px;
+    }
+
+    .stretch-btn {
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+        transition: padding 0.15s;
+    }
+
+    .stretch-btn:hover {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .shadow-btn {
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+        transition: box-shadow 0.15s , opacity 0.15s;
+    }
+
+    .shadow-btn:hover{
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    }
+
+    .shadow-btn:active{
+        opacity: 0.7;
+    }
+    
+</style>
+<body>
+
+    <div class="next-page" style="margin-bottom: 20px;">
+        <button class="back-btn">Back</button>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <button class="next-btn">Next</button>
+    </div>
+
+    <div class="stretch" style="margin-bottom: 20px;" >
+        <button class="stretch-btn">Stretch</button>
+    </div>
+
+    <div class="shadow">
+        <button class="shadow-btn">Shadow</button>
+    </div>
+</body>
+</html>
