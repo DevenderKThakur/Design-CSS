@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .google-logo{
+        display: block;
+        width: 200px;
+    }
+
+    .google-search-bar{
+        width: 400px;
+        font-size: 16px;
+        padding: 12px 18px ;
+        border: none;
+        box-shadow: 0 1px 6px rgba(0,0,0,0.25);
+        border-radius: 25px;
+        outline: none;
+    }
+
+    .first-name-input{
+        width: 100px;
+        padding: 10px 15px ;
+        border-radius: 8px;
+        outline: none;
+        border: 1px solid grey;
+    }
+
+    .last-name-input{
+        width: 100px;
+        padding: 10px 15px ;
+        border-radius: 8px;
+        outline: none;
+        border: 1px solid grey;
+    }
+
+    .email-input , .sign-up-btn{
+        display: block;
+        margin-top: 10px;
+        padding: 10px 15px ;
+        border-radius: 8px;
+    }
+
+    .email-input {
+        width: 238px;
+        outline: none;
+        border: 1px solid grey;
+    }
+
+    .sign-up-btn {
+        width: 270px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: blue;
+        border: none;
+        
+    }
+
+
+
+</style>
+<body>
+
+    <div>
+        <input type="text" placeholder="Name" style="display: block; margin-bottom: 10px;">
+        <input type="text" placeholder="Email" step="display: block;">
+    </div>
+
+    <div style="margin-bottom: 40px;">
+        <p style="display: inline-block; width: 200px; vertical-align: middle;">
+            Thanks for chatting with our customer support . Would you like to take our quick survey
+        </p>
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+
+    <div style="margin-bottom: 60px;">
+        <center>
+            <img class="google-logo" src="/HTML-CSS/intro-to-html-css/google-logo.webp" alt="Google-logo">
+        <input class="google-search-bar" type="text" placeholder="Search Google or type a URL">
+        </center>
+    </div>
+
+    <div>
+        <input type="text" placeholder="First name" class="first-name-input">
+        <input type="text" placeholder="Last name" class="last-name-input">
+        <input type="text" placeholder="Email" class="email-input">
+        <button class="sign-up-btn">Sign Up</button>
+    </div>
+</body>
+</html>
